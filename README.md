@@ -3,7 +3,7 @@ Indexer is a Python script that generates an .html index of files within a selec
 
 ## Prerequisites:
 * This script requires you to have **[Python > 3.x.x](https://www.python.org/downloads/)** installed on your system. 
-* Ideally use the current build of **[Python 3.10](https://www.python.org/downloads/release/python-3100/)** (significantly faster processing! 🏃)
+* Ideally use the current build of **[Python 3.10](https://www.python.org/downloads/release/python-3100/)** (significantly faster processing on larger directories! 🏃)
 
 ## Usage
 *python3 indexer.py /top_dir*

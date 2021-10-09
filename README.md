@@ -12,11 +12,11 @@ Indexer is a Python script that generates an .html index of files within a selec
 * *top_dir*: top folder from which to start generating indexes, use current folder if not specified
 
 ## Optional arguments:
-* *-h, --help*: show this help message and exit.
-* *-f, --filter*: only include files matching glob.
-* *-o filename, --output-file filename*: Custom output file, by default "index.html"
-* *-r, --recursive*: recursively process nested dirs (FALSE by default).
-* *-v, --verbose*: verbosely list every processed file. ***WARNING: will take longer time with complex file tree structures on slow terminals.***
+* **-h, --help**: show this help message and exit.
+* ***-f, --filter***: only include files matching glob.
+* ***-o filename, --output-file filename***: Custom output file, by default "index.html"
+* ***-r, --recursive***: recursively process nested dirs (FALSE by default).
+* ***-v, --verbose***: verbosely list every processed file. *WARNING: will take longer time with complex file tree structures on slow terminals.*
 
 ## Features:
 * Custom icons (if supported by OS)  

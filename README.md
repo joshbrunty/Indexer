@@ -15,8 +15,8 @@ Indexer is a Python script that generates an .html index of files within a selec
 * **-h, --help**: show this help message and exit.
 * ***-f, --filter***: only include files matching glob. (EX: indexer.py --filter '\**/*.jpg')
 * ***-o filename, --output-file filename***: Custom output file, by default "index.html"
-* ***-r, --recursive***: recursively process nested dirs (FALSE by default).
-* ***-v, --verbose***: verbosely list every processed file. *WARNING: will take longer time with complex file tree structures on slow terminals.*
+* ***-r, --recursive***: recursively process nested dirs (*FALSE by default*).
+* ***-v, --verbose***: verbosely list every processed file. (*WARNING: will take longer time with complex file tree structures on slow terminals.*)
 
 ## Features:
 * Custom icons (if supported by OS)  

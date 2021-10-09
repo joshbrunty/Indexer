@@ -2,7 +2,7 @@
 Indexer is a Python script that generates an .html index of files within a chosen directory. This script generates an .html index of files within a directory (recursive is OFF by default). Start from current dir or from folder passed as first positional argument. Optionally filter by file types with --filter "*.py".
 
 ## Prerequisites:
-This project requires you to have [Python > 3.x.x](https://www.python.org/downloads/) installed on your system. **Ideally use current build of [Python 3.10](https://www.python.org/downloads/release/python-3100/) (significantly faster processing!)**
+This project requires you to have [Python > 3.x.x](https://www.python.org/downloads/) installed on your system. *Ideally use the current build of **[Python 3.10](https://www.python.org/downloads/release/python-3100/)** (significantly faster processing!)*
 
 ## Usage
 *python3 indexer.py /top_dir*

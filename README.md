@@ -11,11 +11,11 @@ This project requires you to have Python > 3.x.x installed on your system. **Ide
 ⚙ *top_dir*: top folder from which to start generating indexes, use current folder if not specified
 
 ### optional arguments:
- ⚙ *-h, --help*: show this help message and exit
- ⚙ *-f, --filter*: only include files matching glob
- ⚙ *-o filename, --output-file filename*: Custom output file, by default "index.html"
- ⚙ *-r, --recursive*: recursively process nested dirs (FALSE by default)
- ⚙ *-v --verbose*: verbosely list every processed file ***WARNING: can take longer time with complex file tree structures on slow terminals.*** 
+⚙ *-h, --help*: show this help message and exit
+⚙ *-f, --filter*: only include files matching glob
+⚙ *-o filename, --output-file filename*: Custom output file, by default "index.html"
+⚙ *-r, --recursive*: recursively process nested dirs (FALSE by default)
+⚙ *-v --verbose*: verbosely list every processed file ***WARNING: can take longer time with complex file tree structures on slow terminals.*** 
 
 ### Features:  
 ⚙️ Custom icons (if supported by OS)  

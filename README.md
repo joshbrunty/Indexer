@@ -1,5 +1,5 @@
 # Indexer
-Indexer is a Python script that generates an .html index of files within a chosen directory. This script generates an .html index of files within a directory (recursive is OFF by default). Start from current dir or from folder passed as first positional argument. Optionally filter by file types with --filter "*.py".
+Indexer is a Python script that generates an .html index of files within a selected directory. This script generates an .html index of files within a directory (recursive is OFF by default). Start from current dir or from folder passed as first positional argument. Optionally filter by file types with --filter "*.py".
 
 ## Prerequisites:
 * This script requires you to have **[Python > 3.x.x](https://www.python.org/downloads/)** installed on your system. 
@@ -16,7 +16,7 @@ Indexer is a Python script that generates an .html index of files within a chose
 * *-f, --filter*: only include files matching glob.
 * *-o filename, --output-file filename*: Custom output file, by default "index.html"
 * *-r, --recursive*: recursively process nested dirs (FALSE by default).
-* *-v, --verbose*: verbosely list every processed file. ***WARNING: can take longer time with complex file tree structures on slow terminals.***
+* *-v, --verbose*: verbosely list every processed file. ***WARNING: will take longer time with complex file tree structures on slow terminals.***
 
 ## Features:
 * Custom icons (if supported by OS)  

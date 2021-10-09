@@ -13,10 +13,10 @@ This project requires you to have Python > 3.x.x installed on your system. **Ide
 ## optional arguments:
 
 ⚙ -h, --help: show this help message and exit
-* ⚙ -f, --filter: only include files matching glob
-* ⚙ -o filename, --output-file filename: Custom output file, by default "index.html"
-* ⚙ -r, --recursive*: recursively process nested dirs (FALSE by default)
-* ⚙ -v --verbose*: verbosely list every processed file ***WARNING: can take longer time with complex file tree structures on slow terminals.*** 
+⚙ -f, --filter: only include files matching glob
+⚙ -o filename, --output-file filename: Custom output file, by default "index.html"
+⚙ -r, --recursive*: recursively process nested dirs (FALSE by default)
+⚙ -v --verbose*: verbosely list every processed file ***WARNING: can take longer time with complex file tree structures on slow terminals.***
 
 ## Features:
 

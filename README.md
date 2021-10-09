@@ -7,10 +7,10 @@ This project requires you to have Python > 3.x.x installed on your system. **Ide
 ## Usage
 *python3 indexer.py /top_dir*
 
-## positional arguments:
+## Positional arguments:
 * *top_dir*: top folder from which to start generating indexes, use current folder if not specified
 
-## optional arguments:
+## Optional arguments:
 * *-h, --help*: show this help message and exit.
 * *-f, --filter*: only include files matching glob.
 * *-o filename, --output-file filename*: Custom output file, by default "index.html"

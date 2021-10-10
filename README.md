@@ -21,4 +21,4 @@ Indexer is a Python script that generates an .html index of files within a selec
 ## Features: 
 * File Size & Modified Time display for each file. 
 * Create a custom output file (*by default *index.html* is generated*).
-* Ability to match specified parameters using [***glob***](https://docs.python.org/3/library/glob.html) (*'\**/*.jpg' & '\**/*.UFD'*).
+* Ability to match specified parameters using [glob](https://docs.python.org/3/library/glob.html) (*'\**/*.jpg' & '\**/*.UFD'*).

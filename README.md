@@ -1,5 +1,5 @@
 # Indexer
-Indexer is a Python script that generates an .html index of files within a selected directory. This script generates an .html index of files within a directory (recursive is OFF by default). Start from current dir or from folder passed as first positional argument. Optionally filter by file types with --filter "\*.py". This script is an hodgepodge of older scripts collected & built over the years.
+Indexer is a Python script that generates an .html index of files within a selected directory. You can start from the current directory or from folder passed as first positional argument. Optionally filter by file types with --filter "\*.py". This script is an hodgepodge of older scripts [collected](https://stackoverflow.com/questions/10961378/how-to-generate-an-html-directory-list-using-python) & built over the years.
 
 ## Prerequisites:
 * This script requires you to have **[Python > 3.x.x](https://www.python.org/downloads/)** installed on your system. 
@@ -9,17 +9,16 @@ Indexer is a Python script that generates an .html index of files within a selec
 *python3 indexer.py /top_dir*
 
 ## Positional arguments:
-* **top_dir**: top folder from which to start generating indexes, use current folder if not specified
+* **top_dir**: top folder from which to start generating indexes (*uses current working directory/folder if not specified*).
 
 ## Optional arguments:
 * ***-h, --help***: show this help message and exit.
-* ***-f, --filter***: only include files matching glob. (EX: indexer.py --filter '\**/*.jpg')
-* ***-o filename, --output-file filename***: Custom output file, by default "index.html"
-* ***-r, --recursive***: recursively process nested dirs (*FALSE by default*).
+* ***-f, --filter***: only include files matching [glob](https://docs.python.org/3/library/glob.html)glob. (*EX: indexer.py --filter '\**/*.jpg'*)
+* ***-o filename, --output-file filename***: Custom output file (by default generates "index.html")
+* ***-r, --recursive***: recursively process nested folders/directories (*Off/False by default*).
 * ***-v, --verbose***: verbosely list every processed file. (*NOTE: will take longer time with complex file tree structures on slow terminals.*)
 
-## Features:
-* Custom icons (*if supported by OS*)  
-* File Size & Modified Time display for each file 
-* Create custom output file (by default *index.html* is generated
-* Ability to match specified parameters using [***glob***](https://docs.python.org/3/library/glob.html) (*'\**/*.jpg' & '\**/*.UFD'*)
+## Features: 
+* File Size & Modified Time display for each file. 
+* Create a custom output file (*by default *index.html* is generated*).
+* Ability to match specified parameters using [***glob***](https://docs.python.org/3/library/glob.html) (*'\**/*.jpg' & '\**/*.UFD'*).

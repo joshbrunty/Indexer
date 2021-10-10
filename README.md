@@ -24,10 +24,8 @@ Indexer is a Python script that generates an .html index of files within a selec
 * Ability to match specified parameters using [glob](https://docs.python.org/3/library/glob.html) (*'\**/*.jpg' & '\**/*.UFD'*).
 
 ### Contact
-Email: josh [dot] brunty [at] marshall [dot] edu
-
-Follow @joshbrunty on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=25920)](https://twitter.com/joshbrunty) 
-
-Indexer is Open Source via the MIT License (MIT): <a href="https://opensource.org/licenses/MIT" rel="nofollow">
+* Email: josh [dot] brunty [at] marshall [dot] edu
+* Follow @joshbrunty on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=25920)](https://twitter.com/joshbrunty) 
+* Indexer is Open Source via the MIT License (MIT): <a href="https://opensource.org/licenses/MIT" rel="nofollow">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SysScout is Open Source via MIT License">
 </a>

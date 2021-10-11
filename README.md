@@ -9,7 +9,7 @@ Indexer is a Python script that generates an .html index of files within a selec
 ```python3 indexer.py /top_dir```
 
 ## Positional arguments:
-* **top_dir**: top folder from which to start generating indexes (*uses current working directory/folder if not specified*).
+* ```top_dir```: top folder from which to start generating indexes (*uses current working directory/folder if not specified*).
 
 ## Optional arguments:
 * ```-h, --help```: show this help message and exit.

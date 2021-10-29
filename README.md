@@ -1,7 +1,7 @@
 # Indexer
 Indexer is a Python script that generates an .html index of files within a selected directory. You can start from the current directory or from folder passed as first positional argument. Optionally filter by file types with --filter "\*.py". This script is an hodgepodge of older scripts [collected](https://stackoverflow.com/questions/10961378/how-to-generate-an-html-directory-list-using-python) & built over the years.
 
-* Blog Post: [https://joshbrunty.github.io/2021/10/15/indexer.html](https://joshbrunty.github.io/2021/10/15/indexer.html)
+* Blog Post: [https://joshbrunty.github.io/2021/10/29/indexer.html](https://joshbrunty.github.io/2021/10/15/indexer.html)
 * Video Tutorial (YouTube): https://youtu.be/-1_gVP3NtPo
 
 ## Prerequisites:

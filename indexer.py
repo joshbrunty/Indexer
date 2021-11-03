@@ -31,7 +31,7 @@ def process_dir(top_dir, opts):
         print(f'Traversing dir {path_top_dir.absolute()}')
 
     try:
-        index_file = open(index_path, 'w')
+        open(index_path, 'w', encoding='utf-8')
     except Exception as e:
         print('cannot create file %s %s' % (index_path, e))
         return

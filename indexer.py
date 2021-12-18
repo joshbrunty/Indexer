@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Indexer v.1.0.0
+# Indexer v.1.0.1
 # Author: Josh Brunty (josh dot brunty at marshall dot edu)
 # DESCRIPTION: This script generates an .html index  of files within a directory (recursive is OFF by default). Start from current dir or from folder passed as first positional argument. Optionally filter by file types with --filter "*.py". 
 
